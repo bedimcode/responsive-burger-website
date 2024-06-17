@@ -1,0 +1,112 @@
+========== HEADER ==========
+.nav__logo
+Burger
+
+.nav__link
+Home - Recipe - Popular - Delivery - Contact
+
+
+========== HOME ==========
+.home__title
+Love Every <br> Burger
+
+.home__description
+We serve the best burgers on the planet, 
+paving the way for cooking and preparing 
+hot, delicious burgers.
+
+.button
+Bite Now
+
+
+========== RECIPE ==========
+.section__title
+Our Secret Recipe
+
+.recipe__title .recipe__description
+Bread
+Fresh bread, baked to perfection.
+
+Cheese
+Cheese for a fantastic and healthy future.
+
+Meat
+100% pure beef, big and meaty.
+
+Vegetables
+Vegetables full of the essence of nature and organic.
+
+Sauces
+Fresh sauces, delicious for the palate.
+
+
+========== POPULAR ==========
+.section__title
+Most Devoured <br> Burgers
+
+.popular__title .popular__price
+Chicken <br> Burger
+$6
+
+Meat <br> Burger
+$10
+
+Grill <br> Burger
+$12
+
+Classic <br> Burger
+$8
+
+Big <br> Burger
+$15
+
+
+========== DELIVERY ==========
+.section__title
+Fast Delivery
+
+.delivery__description
+Place your order for your favorite burger 
+and we will deliver it to your door in minutes, 
+get in touch and don't leave hungry.
+
+.button
+Contact Now
+
+
+========== CONTACT ==========
+.section__title
+Contact Now
+
+.contact__title .contact__info
+Write Us
+
+.contact__social
+https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!
+https://m.me/bedimcode
+https://t.me/telegram
+
+Call Us and Order
++00-987-7654-321 <br>
++11-012345
+
+Find us here
+Lima - Sun City - Peru <br>
+Av. Moon #4321
+
+
+========== FOOTER ==========
+.footer__logo
+Burger
+
+.footer__link
+Terms & Agreements
+Privacy Policy
+
+.footer__social
+https://www.facebook.com/
+https://www.instagram.com/
+https://twitter.com/
+
+.footer__copy
+&#169; All Rights Reserved By Bedimcode

@@ -1,0 +1,171 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Montserrat:wght@100..900&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3.5rem;
+
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --first-color: hsl(45, 99%, 55%);
+  --first-color-alt: hsl(45, 99%, 48%);
+  --second-color: hsl(22, 100%, 8%);
+  --white-color: hsl(34, 100%, 96%);
+  --title-color: hsl(22, 100%, 8%);
+  --text-color: hsl(22, 24%, 32%);
+  --text-color-light: hsl(23, 16%, 40%);
+  --body-color: hsl(34, 100%, 92%);
+  --body-color-alt: hsl(34, 100%, 88%);
+  --container-color: hsl(34, 100%, 96%);
+  --shadow-small-img: drop-shadow(0 4px 16px hsla(22, 100%, 8%, .2));
+  --shadow-big-img: drop-shadow(0 8px 24px hsla(22, 100%, 8%, .2));
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Montserrat", sans-serif;
+  --second-font: "Aclonica", sans-serif;
+  --biggest-font-size: 3rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/*========== Responsive typography ==========*/
+@media screen and (min-width: 1150px) {
+  :root {
+    --biggest-font-size: 4.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+  }
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4 {
+  color: var(--title-color);
+  font-family: var(--second-font);
+  font-weight: var(--font-regular);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding-block: 5rem 1rem;
+}
+
+.section__title {
+  text-align: center;
+  font-size: var(--h1-font-size);
+  margin-bottom: 2rem;
+}
+
+.main {
+  overflow: hidden;
+}
+
+/*=============== HEADER & NAV ===============*/
+
+
+/* Navigation for mobile devices */
+
+
+/* Show menu */
+
+
+/* Add shadow header */
+
+
+/* Active link */
+
+
+/*=============== HOME ===============*/
+
+
+/*=============== BUTTON ===============*/
+
+
+/*=============== RECIPE ===============*/
+
+
+/*=============== POPULAR ===============*/
+
+
+/*=============== DELIVERY ===============*/
+
+
+/*=============== CONTACT ===============*/
+
+
+/*=============== FOOTER ===============*/
+
+
+/*=============== SCROLL BAR ===============*/
+
+
+/*=============== SCROLL UP ===============*/
+
+
+/* Show Scroll Up */
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+
+
+/* For medium devices */
+
+
+/* For large devices */
